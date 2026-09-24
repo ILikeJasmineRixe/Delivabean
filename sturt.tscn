@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://ciynpgvnodmi2"]
+
+[ext_resource type="Script" uid="uid://cyc3fhk6jdu0o" path="res://label.gd" id="1_hju70"]
+
+[node name="sturt" type="Control" unique_id=535424184]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="." unique_id=294273613]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Delivabean (work in progress)
+
+Press Enter to start!"
+script = ExtResource("1_hju70")
